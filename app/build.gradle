@@ -1,0 +1,24 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    
+
+    defaultConfig {
+        applicationId "o1310.rx1310.app.optiram"
+        minSdkVersion 14
+        targetSdkVersion 29
+        versionCode 200903
+        versionName "alpha-1"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
