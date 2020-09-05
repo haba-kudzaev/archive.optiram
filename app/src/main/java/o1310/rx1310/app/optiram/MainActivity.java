@@ -203,7 +203,7 @@ public class MainActivity extends Activity {
 					
 					if (mKillTimer >= 8) {
 						finish();
-						overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+						//overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
 					}
 					
 					mKillTimer++;
